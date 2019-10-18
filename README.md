@@ -14,3 +14,14 @@
 
 [数据集](https://pan.baidu.com/s/1MgwkIGmVS7YRjiFQjvOvRA&shfl=sharepset)
 
+下载数据集之后，在根目录下创建`data`文件夹，将两个压缩包解压到`data`目录下。
+
+```
+# 训练自己的模型
+python train_use_selfnet.py
+
+# 使用迁移学习
+python train_use_transfer_resnet18.py
+```
+
+项目注释比较完整，应该挺友好的。
